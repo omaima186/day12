@@ -1,0 +1,70 @@
+/* Basic reset */
+body, h1, p, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 272px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-container input {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-btn {
+    background-color: #f8f9fa;
+    color: #5f6368;
+    border: 1px solid #dcdcdc;
+}
+
+.im-feeling-lucky-btn {
+    background-color: #f8f9fa;
+    color: #5f6368;
+    border: 1px solid #dcdcdc;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #808080;
+}
